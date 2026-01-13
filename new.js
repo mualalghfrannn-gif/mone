@@ -32,3 +32,45 @@ if (scrollY >= 33){
     document.querySelector("nav").style.backgroundColor = "#29012f"
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+let ul = document.querySelector("ul")
+let col = document.getElementById("cicicic")
+let myicon = document.getElementById("myicon")
+// col.addEventListener("click", function(){
+//    ul.style.display = "block"
+// })
+// function showMenu(el){
+//    el.classList.toggle("active");
+// }
+
+col.onclick = function(){
+    if(ul.style.left === "0px"){
+       
+          
+                 ul.style.left = "-100%"
+        console.log("clicked")
+        
+            
+       
+        return
+    }else{
+  ul.style.left = "0px"
+   console.log("clicked")
+   
+    }
+ 
+}
+
+
+

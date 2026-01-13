@@ -105,3 +105,93 @@ main p{
     margin: 10px 0px 30px 20px;
     text-transform: capitalize;
 }
+
+ #cicicic{
+    display: none;
+    color: #fff;
+ }
+
+
+
+
+ @media screen and (max-width: 768px){
+    header h1{
+        font-size: 30px;
+    }
+    header a{
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+    main h3{
+        font-size: 20px;
+    }
+    main p{
+        font-size: 14px;
+    }
+ #cicicic{
+    display: block;
+    cursor: pointer;
+    color: #fff !important;
+    background-color: #840784;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 23;
+ }
+  #cicicic svg{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  #myicon{
+
+    cursor: pointer;
+    color: #fff !important;
+    background-color: #840784;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+  }
+    #myicon svg{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+ header ul{
+    display: block;
+    position: absolute;
+    top: 110%;
+    left: -100%;
+    width: 100%;
+    min-height: 100px;
+    background-color: #fff;
+    color: #29012f;
+transition: 0.7s;
+}
+ header ul .active{
+    display: block;
+    
+ }
+header ul li , a{
+    padding: 5px 10px;
+    text-align: center;
+     color: #29012f;
+     border: solid 1px #29012f;
+     background-color: #fff;
+     padding: 10px 0px;
+  
+ }
+ /* .active{
+    display: block;
+ } */
+
+}
